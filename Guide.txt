@@ -1,0 +1,7 @@
+NativeWind, React Native, Appwrite
+
+Tools:
+- React Native: code mobile
+- NativeWind: like TailwindCSS
+- Appwrite: Database
+- Expo go: Run app in mobile 
