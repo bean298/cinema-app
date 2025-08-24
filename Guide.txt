@@ -3,5 +3,8 @@ NativeWind, React Native, Appwrite
 Tools:
 - React Native: code mobile
 - NativeWind: like TailwindCSS
-- Appwrite: Database
+- Appwrite: Database (link: https://cloud.appwrite.io/console/organization-68a3306b0023eebaa2cc)
 - Expo go: Run app in mobile 
+- TTMDB API: ( link: https://developer.themoviedb.org/reference/intro/getting-started  )
+
+Link hướng dẫn: https://www.youtube.com/watch?v=f8Z9JyB2EIE&t=4296s 
