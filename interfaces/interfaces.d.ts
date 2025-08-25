@@ -1,3 +1,5 @@
+// Define type of obj
+
 interface Movie {
   id: number;
   title: string;
