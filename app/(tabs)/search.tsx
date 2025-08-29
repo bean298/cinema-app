@@ -32,17 +32,21 @@ const Search = () => {
     const timeoutId = setTimeout(async () => {
       if (searchQuery.trim()) {
         await refetchMovies();
-
-        if (movies?.length > 0 && movies?.[0]) {
-          await updateSearchCount(searchQuery, movies[0]);
-        }
       } else {
         reset();
       }
-    }, 500);
+    }, 3000);
 
     return () => clearTimeout(timeoutId);
   }, [searchQuery]);
+
+  useEffect(() => {
+    // Call updateSearchCount func to execute Alogorithm trending logic
+    // Run when movies change
+    if (movies?.length > 0 && movies?.[0]) {
+      updateSearchCount(searchQuery, movies[0]);
+    }
+  }, [movies]);
 
   return (
     <View className="flex-1 bg-primary">
