@@ -13,3 +13,6 @@ Function:
 
 Link hướng dẫn: https://www.youtube.com/watch?v=f8Z9JyB2EIE&t=4296s 
 Link Icon: https://icons.expo.fyi/Index
+
+Project Flow:
+- Each times user search movie, database will save the movie and + 1 into field count
